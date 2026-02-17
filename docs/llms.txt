@@ -1,0 +1,61 @@
+# Go Dependency Injector
+
+> A lightweight, type-safe dependency injection container and IoC framework for Go using generics.
+
+Go Dependency Injector provides a service container that leverages Go generics for compile-time type safety, automatic constructor injection, and a clean API. It supports transient, singleton, and scoped lifetimes, detects circular dependencies with clear error messages, allows named registrations for multiple implementations of the same interface, and is fully thread-safe. Zero external dependencies.
+
+## Links
+
+- [Documentation](https://pegasusheavy.github.io/go-dependency-injector/)
+- [GitHub Repository](https://github.com/pegasusheavy/go-dependency-injector)
+- [pkg.go.dev](https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector)
+
+## Key Features
+
+- Type-safe generics with `Register[T]()` and `Resolve[T]()` for compile-time type checking
+- Multiple lifetimes: Transient (default), Singleton, and Scoped
+- Automatic constructor parameter resolution from the container
+- Circular dependency detection with clear error messages
+- Named registrations for multiple implementations of the same interface
+- Thread-safe for concurrent access across goroutines
+- Zero external dependencies (Go standard library only)
+
+## Installation
+
+```bash
+go get github.com/pegasusheavy/go-dependency-injector
+```
+
+Requires Go 1.22 or later.
+
+## Quick Start
+
+```go
+package main
+
+import (
+    "fmt"
+    "github.com/pegasusheavy/go-dependency-injector/di"
+)
+
+type Logger interface {
+    Log(message string)
+}
+
+type ConsoleLogger struct{}
+
+func (l *ConsoleLogger) Log(message string) {
+    fmt.Println("[LOG]", message)
+}
+
+func main() {
+    container := di.New()
+
+    di.Register[Logger](container, func() Logger {
+        return &ConsoleLogger{}
+    }, di.AsSingleton())
+
+    logger := di.MustResolve[Logger](container)
+    logger.Log("Hello from DI!")
+}
+```
