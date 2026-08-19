@@ -38,7 +38,8 @@ jobs:
 
     - name: Trigger pkg.go.dev update
       run: |
-        curl "https://proxy.golang.org/github.com/pegasusheavy/go-dependency-injector/@v/${{ github.ref_name }}.info" || true
+        curl "https://proxy.golang.org/github.com/quinnjr/go-dependency-injector/@v/${{ github.ref_name }}.info" || true
+
 
 
 

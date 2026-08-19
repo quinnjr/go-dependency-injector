@@ -1,9 +1,9 @@
 # Go Dependency Injector
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/pegasusheavy/go-dependency-injector.svg)](https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector)
-[![Go Report Card](https://goreportcard.com/badge/github.com/pegasusheavy/go-dependency-injector)](https://goreportcard.com/report/github.com/pegasusheavy/go-dependency-injector)
+[![Go Reference](https://pkg.go.dev/badge/github.com/quinnjr/go-dependency-injector.svg)](https://pkg.go.dev/github.com/quinnjr/go-dependency-injector)
+[![Go Report Card](https://goreportcard.com/badge/github.com/quinnjr/go-dependency-injector)](https://goreportcard.com/report/github.com/quinnjr/go-dependency-injector)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/pegasusheavy/go-dependency-injector)](https://github.com/pegasusheavy/go-dependency-injector)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/quinnjr/go-dependency-injector)](https://github.com/quinnjr/go-dependency-injector)
 
 A lightweight, type-safe **dependency injection (DI) container** and **IoC (Inversion of Control)** framework for Go. This service container leverages Go generics for compile-time safety, automatic constructor injection, and a clean, intuitive API.
 
@@ -22,7 +22,7 @@ A lightweight, type-safe **dependency injection (DI) container** and **IoC (Inve
 ## Installation
 
 ```bash
-go get github.com/pegasusheavy/go-dependency-injector
+go get github.com/quinnjr/go-dependency-injector
 ```
 
 ## Quick Start
@@ -32,7 +32,7 @@ package main
 
 import (
     "fmt"
-    "github.com/pegasusheavy/go-dependency-injector/di"
+    "github.com/quinnjr/go-dependency-injector/di"
 )
 
 // Define interfaces
@@ -257,7 +257,7 @@ import (
     "log"
     "net/http"
 
-    "github.com/pegasusheavy/go-dependency-injector/di"
+    "github.com/quinnjr/go-dependency-injector/di"
 )
 
 // Interfaces
@@ -405,10 +405,10 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Package Discovery
 
-This package is automatically indexed by [pkg.go.dev](https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector) once you create a version tag. Users can:
+This package is automatically indexed by [pkg.go.dev](https://pkg.go.dev/github.com/quinnjr/go-dependency-injector) once you create a version tag. Users can:
 
-- Browse documentation at https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector
-- Import directly: `go get github.com/pegasusheavy/go-dependency-injector`
+- Browse documentation at https://pkg.go.dev/github.com/quinnjr/go-dependency-injector
+- Import directly: `go get github.com/quinnjr/go-dependency-injector`
 - View examples and API documentation
 
 ### For Maintainers
@@ -421,7 +421,7 @@ git tag v1.0.0
 git push origin v1.0.0
 
 # The package will be automatically indexed by pkg.go.dev
-# You can verify at: https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector@v1.0.0
+# You can verify at: https://pkg.go.dev/github.com/quinnjr/go-dependency-injector@v1.0.0
 ```
 
 ## Related Projects

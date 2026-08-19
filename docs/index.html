@@ -124,7 +124,7 @@
                 <a href="benchmarks.html" class="text-sm text-ink/60 hover:text-ink transition-colors flex items-center gap-1">
                     <i class="fa-solid fa-gauge-high"></i> Benchmarks
                 </a>
-                <a href="https://github.com/pegasusheavy/go-dependency-injector"
+                <a href="https://github.com/quinnjr/go-dependency-injector"
                    class="flex items-center gap-2 px-4 py-2 bg-ink text-paper rounded-full text-sm font-medium hover:bg-ink/80 transition-colors">
                     <i class="fa-brands fa-github"></i>
                     GitHub
@@ -157,7 +157,7 @@
                             Get Started →
                         </a>
                         <button onclick="copyInstall()" class="copy-btn px-6 py-3 border border-ink/20 rounded-full font-mono text-sm hover:border-ink/40 transition-all flex items-center gap-2">
-                            <span id="install-text">go get github.com/pegasusheavy/go-dependency-injector</span>
+                            <span id="install-text">go get github.com/quinnjr/go-dependency-injector</span>
                             <i class="fa-regular fa-copy text-ink/40"></i>
                         </button>
                     </div>
@@ -272,7 +272,7 @@
                     <div class="flex-1">
                         <h3 class="font-display text-xl mb-3">Install the package</h3>
                         <div class="code-block rounded-xl p-4">
-                            <code class="text-sage font-mono">go get github.com/pegasusheavy/go-dependency-injector</code>
+                            <code class="text-sage font-mono">go get github.com/quinnjr/go-dependency-injector</code>
                         </div>
                     </div>
                 </div>
@@ -283,7 +283,7 @@
                     <div class="flex-1">
                         <h3 class="font-display text-xl mb-3">Create a container and register dependencies</h3>
                         <div class="code-block rounded-xl p-5 overflow-x-auto">
-                            <pre><code class="text-gray-300 text-sm font-mono"><span class="text-purple-400">import</span> <span class="text-sage">"github.com/pegasusheavy/go-dependency-injector/di"</span>
+                            <pre><code class="text-gray-300 text-sm font-mono"><span class="text-purple-400">import</span> <span class="text-sage">"github.com/quinnjr/go-dependency-injector/di"</span>
 
 <span class="text-coral">container</span> := <span class="text-accent">di</span>.<span class="text-sage">New</span>()
 
@@ -446,16 +446,16 @@ service.<span class="text-sage">DoSomething</span>()</code></pre>
                 </div>
 
                 <div class="flex items-center gap-6 text-sm text-ink/60">
-                    <a href="https://github.com/pegasusheavy/go-dependency-injector" class="hover:text-ink transition-colors flex items-center gap-2">
+                    <a href="https://github.com/quinnjr/go-dependency-injector" class="hover:text-ink transition-colors flex items-center gap-2">
                         <i class="fa-brands fa-github"></i> GitHub
                     </a>
                     <a href="benchmarks.html" class="hover:text-ink transition-colors flex items-center gap-2">
                         <i class="fa-solid fa-gauge-high"></i> Benchmarks
                     </a>
-                    <a href="https://github.com/pegasusheavy/go-dependency-injector/issues" class="hover:text-ink transition-colors flex items-center gap-2">
+                    <a href="https://github.com/quinnjr/go-dependency-injector/issues" class="hover:text-ink transition-colors flex items-center gap-2">
                         <i class="fa-solid fa-circle-exclamation"></i> Issues
                     </a>
-                    <a href="https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector" class="hover:text-ink transition-colors flex items-center gap-2">
+                    <a href="https://pkg.go.dev/github.com/quinnjr/go-dependency-injector" class="hover:text-ink transition-colors flex items-center gap-2">
                         <i class="fa-solid fa-book"></i> pkg.go.dev
                     </a>
                 </div>
@@ -468,7 +468,7 @@ service.<span class="text-sage">DoSomething</span>()</code></pre>
     <script>
         // Copy install command
         function copyInstall() {
-            const text = 'go get github.com/pegasusheavy/go-dependency-injector';
+            const text = 'go get github.com/quinnjr/go-dependency-injector';
             navigator.clipboard.writeText(text).then(() => {
                 const btn = document.getElementById('install-text');
                 const original = btn.textContent;

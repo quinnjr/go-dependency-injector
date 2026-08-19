@@ -11,7 +11,7 @@ This document summarizes all changes made to prepare your Go dependency injectio
 **Problem**: Mismatched module paths between `go.mod`, imports, and documentation.
 
 **Solution**: Updated all references to use the correct GitHub path:
-- `go.mod`: `module github.com/pegasusheavy/go-dependency-injector`
+- `go.mod`: `module github.com/quinnjr/go-dependency-injector`
 - All imports updated across:
   - `main.go`
   - `di/benchmark_test.go`
@@ -128,10 +128,10 @@ graph LR
 ## Next Steps for Publication
 
 ### Immediate (Required)
-1. **Push to GitHub**: Ensure code is at `github.com/pegasusheavy/go-dependency-injector`
+1. **Push to GitHub**: Ensure code is at `github.com/quinnjr/go-dependency-injector`
 2. **Create Tag**: `git tag v1.0.0 && git push origin v1.0.0`
 3. **Wait**: 5-15 minutes for pkg.go.dev to index
-4. **Verify**: Check https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector
+4. **Verify**: Check https://pkg.go.dev/github.com/quinnjr/go-dependency-injector
 
 ### Optional (Recommended)
 1. **Add GitHub Topics**: `go`, `golang`, `dependency-injection`, `di-container`
@@ -164,7 +164,7 @@ graph LR
 ### Module Path = Repository URL
 The module path in `go.mod` MUST exactly match the GitHub repository URL:
 ```
-github.com/pegasusheavy/go-dependency-injector
+github.com/quinnjr/go-dependency-injector
 ```
 
 ### Semantic Versioning
@@ -219,11 +219,12 @@ Your Go package is now fully configured and ready for publication. The module pa
 
 ---
 
-**Package URL**: https://github.com/pegasusheavy/go-dependency-injector
-**Installation**: `go get github.com/pegasusheavy/go-dependency-injector`
-**Documentation**: https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector
+**Package URL**: https://github.com/quinnjr/go-dependency-injector
+**Installation**: `go get github.com/quinnjr/go-dependency-injector`
+**Documentation**: https://pkg.go.dev/github.com/quinnjr/go-dependency-injector
 
 Good luck! 🚀
+
 
 
 

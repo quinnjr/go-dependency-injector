@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/pegasusheavy/go-dependency-injector/di"
+	"github.com/quinnjr/go-dependency-injector/di"
 )
 
 // =============================================================================

@@ -5,7 +5,7 @@ This guide walks you through the final steps to publish your Go package and make
 ## ✅ What Has Been Fixed
 
 All module paths and imports have been updated to use the correct GitHub path:
-- **Module path**: `github.com/pegasusheavy/go-dependency-injector`
+- **Module path**: `github.com/quinnjr/go-dependency-injector`
 - **All imports**: Updated in `main.go`, test files, and documentation
 - **README**: Updated with proper badges and import examples
 - **Tests**: All passing ✓
@@ -16,12 +16,12 @@ All module paths and imports have been updated to use the correct GitHub path:
 
 Make sure your code is in a public repository at:
 ```
-https://github.com/pegasusheavy/go-dependency-injector
+https://github.com/quinnjr/go-dependency-injector
 ```
 
 If not already pushed, run:
 ```bash
-cd /home/joseph/PegasusHeavyIndustries/go-dependency-injector
+cd /home/joseph/Projects/go-dependency-injector
 
 # Initialize git if not already done
 git init
@@ -33,7 +33,7 @@ git add .
 git commit -m "Initial commit - v1.0.0 ready for release"
 
 # Add remote (replace with your actual repo URL)
-git remote add origin https://github.com/pegasusheavy/go-dependency-injector.git
+git remote add origin https://github.com/quinnjr/go-dependency-injector.git
 
 # Push to GitHub
 git push -u origin main
@@ -58,17 +58,17 @@ Once you push the tag, pkg.go.dev will automatically index your package within 5
 **Manual trigger** (optional):
 ```bash
 # Trigger Go proxy to fetch your module
-curl "https://proxy.golang.org/github.com/pegasusheavy/go-dependency-injector/@v/v1.0.0.info"
+curl "https://proxy.golang.org/github.com/quinnjr/go-dependency-injector/@v/v1.0.0.info"
 
 # Or use go get
-go get github.com/pegasusheavy/go-dependency-injector@v1.0.0
+go get github.com/quinnjr/go-dependency-injector@v1.0.0
 ```
 
 ### Step 4: Verify Publication
 
 Check that your package appears at:
-- **pkg.go.dev**: https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector
-- **GitHub**: https://github.com/pegasusheavy/go-dependency-injector
+- **pkg.go.dev**: https://pkg.go.dev/github.com/quinnjr/go-dependency-injector
+- **GitHub**: https://github.com/quinnjr/go-dependency-injector
 
 ## 📦 What's Included
 
@@ -117,20 +117,20 @@ Your repository now includes:
 Once published, users can install your package with:
 
 ```bash
-go get github.com/pegasusheavy/go-dependency-injector
+go get github.com/quinnjr/go-dependency-injector
 ```
 
 And import it in their code:
 
 ```go
-import "github.com/pegasusheavy/go-dependency-injector/di"
+import "github.com/quinnjr/go-dependency-injector/di"
 ```
 
 ### Viewing Documentation
 
 Users can view full documentation at:
 ```
-https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector
+https://pkg.go.dev/github.com/quinnjr/go-dependency-injector
 ```
 
 ## 📊 Badges and Metrics
@@ -196,8 +196,8 @@ For future releases:
 ### Import Errors
 
 - Module path in `go.mod` must match exactly
-- Case sensitive: `pegasusheavy` not `PegasusHeavy`
-- Users must use: `github.com/pegasusheavy/go-dependency-injector/di`
+- Case sensitive: `quinnjr` not `QuinnJR`
+- Users must use: `github.com/quinnjr/go-dependency-injector/di`
 
 ### CI Failing
 
@@ -216,7 +216,7 @@ For future releases:
 
 Your package is now ready to be published! Here's what you need to do:
 
-1. ✅ Push code to GitHub at `github.com/pegasusheavy/go-dependency-injector`
+1. ✅ Push code to GitHub at `github.com/quinnjr/go-dependency-injector`
 2. ✅ Create and push tag `v1.0.0`
 3. ✅ Wait for automatic indexing (~15 minutes)
 4. ✅ Verify on pkg.go.dev
@@ -224,10 +224,11 @@ Your package is now ready to be published! Here's what you need to do:
 
 **Your package will be installable via:**
 ```bash
-go get github.com/pegasusheavy/go-dependency-injector
+go get github.com/quinnjr/go-dependency-injector
 ```
 
 Good luck with your package! 🚀
+
 
 
 

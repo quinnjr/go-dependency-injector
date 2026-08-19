@@ -3,7 +3,7 @@ package di_test
 import (
 	"fmt"
 
-	"github.com/pegasusheavy/go-dependency-injector/di"
+	"github.com/quinnjr/go-dependency-injector/di"
 )
 
 // ExampleLogger is an example interface for logging.
