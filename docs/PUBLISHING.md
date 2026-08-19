@@ -53,19 +53,19 @@ Once you push a tag, pkg.go.dev will automatically index your package within min
 
 You can manually trigger indexing by visiting:
 ```
-https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector@v1.0.0
+https://pkg.go.dev/github.com/quinnjr/go-dependency-injector@v1.0.0
 ```
 
 Or via curl:
 ```bash
-curl "https://proxy.golang.org/github.com/pegasusheavy/go-dependency-injector/@v/v1.0.0.info"
+curl "https://proxy.golang.org/github.com/quinnjr/go-dependency-injector/@v/v1.0.0.info"
 ```
 
 ### 4. Verify Publication
 
 Check that your package appears at:
-- https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector
-- https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector@v1.0.0
+- https://pkg.go.dev/github.com/quinnjr/go-dependency-injector
+- https://pkg.go.dev/github.com/quinnjr/go-dependency-injector@v1.0.0
 
 ## Version Management
 
@@ -90,7 +90,7 @@ git push origin --tags
 For v2+ modules, update `go.mod`:
 
 ```go
-module github.com/pegasusheavy/go-dependency-injector/v2
+module github.com/quinnjr/go-dependency-injector/v2
 
 go 1.22
 ```
@@ -124,8 +124,8 @@ The repository includes GitHub Actions workflows:
 ### 2. Add Badges to README
 
 ```markdown
-[![Go Reference](https://pkg.go.dev/badge/github.com/pegasusheavy/go-dependency-injector.svg)](https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector)
-[![Go Report Card](https://goreportcard.com/badge/github.com/pegasusheavy/go-dependency-injector)](https://goreportcard.com/report/github.com/pegasusheavy/go-dependency-injector)
+[![Go Reference](https://pkg.go.dev/badge/github.com/quinnjr/go-dependency-injector.svg)](https://pkg.go.dev/github.com/quinnjr/go-dependency-injector)
+[![Go Report Card](https://goreportcard.com/badge/github.com/quinnjr/go-dependency-injector)](https://goreportcard.com/report/github.com/quinnjr/go-dependency-injector)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ```
 

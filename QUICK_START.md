@@ -6,7 +6,7 @@ Your Go package is ready to publish! Here's what to do:
 
 ### 1. Push to GitHub
 ```bash
-cd /home/joseph/PegasusHeavyIndustries/go-dependency-injector
+cd /home/joseph/Projects/go-dependency-injector
 
 # If not already a git repo
 git init
@@ -18,7 +18,7 @@ git add .
 git commit -m "Release v1.0.0"
 
 # Add remote (replace with your actual URL)
-git remote add origin https://github.com/pegasusheavy/go-dependency-injector.git
+git remote add origin https://github.com/quinnjr/go-dependency-injector.git
 
 # Push
 git push -u origin main
@@ -36,19 +36,19 @@ pkg.go.dev will automatically index your package.
 
 ### 4. Verify
 
-Visit: https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector
+Visit: https://pkg.go.dev/github.com/quinnjr/go-dependency-injector
 
 ## That's It! 🎉
 
 Your package is now:
 - ✅ Discoverable on pkg.go.dev
-- ✅ Installable via `go get github.com/pegasusheavy/go-dependency-injector`
+- ✅ Installable via `go get github.com/quinnjr/go-dependency-injector`
 - ✅ Documented with examples
 - ✅ Professionally presented with badges
 
 ## What Was Fixed
 
-1. ✅ Module path: `github.com/pegasusheavy/go-dependency-injector`
+1. ✅ Module path: `github.com/quinnjr/go-dependency-injector`
 2. ✅ All imports updated
 3. ✅ Tests passing (49/49)
 4. ✅ Documentation enhanced
@@ -58,7 +58,7 @@ Your package is now:
 ## Users Will Install With
 
 ```bash
-go get github.com/pegasusheavy/go-dependency-injector
+go get github.com/quinnjr/go-dependency-injector
 ```
 
 ## Optional Next Steps
@@ -76,9 +76,10 @@ go get github.com/pegasusheavy/go-dependency-injector
 
 ---
 
-**Your Package URL**: https://github.com/pegasusheavy/go-dependency-injector
-**Installation**: `go get github.com/pegasusheavy/go-dependency-injector`
-**Documentation**: https://pkg.go.dev/github.com/pegasusheavy/go-dependency-injector
+**Your Package URL**: https://github.com/quinnjr/go-dependency-injector
+**Installation**: `go get github.com/quinnjr/go-dependency-injector`
+**Documentation**: https://pkg.go.dev/github.com/quinnjr/go-dependency-injector
+
 
 
 

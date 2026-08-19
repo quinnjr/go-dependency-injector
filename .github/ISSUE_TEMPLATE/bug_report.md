@@ -25,7 +25,7 @@ Steps to reproduce the behavior:
 package main
 
 import (
-    "github.com/pegasusheavy/go-dependency-injector/di"
+    "github.com/quinnjr/go-dependency-injector/di"
 )
 
 func main() {
@@ -58,6 +58,7 @@ Paste the full error message here
 ## Additional Context
 
 Add any other context about the problem here.
+
 
 
 

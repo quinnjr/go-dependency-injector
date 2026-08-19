@@ -123,7 +123,7 @@ go test ./di/... -bench=. -benchmem -count=5
 ```
 goos: linux
 goarch: amd64
-pkg: github.com/pegasusheavy/go-dependency-injector/di
+pkg: github.com/quinnjr/go-dependency-injector/di
 cpu: Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz
 BenchmarkNew-4                              	35536258	        33.65 ns/op	       0 B/op	       0 allocs/op
 BenchmarkNew-4                              	35416683	        33.61 ns/op	       0 B/op	       0 allocs/op
@@ -192,7 +192,7 @@ BenchmarkResolveFromLargeContainer-4        	12628719	        94.38 ns/op	      
 BenchmarkResolveFromLargeContainer-4        	12582852	        93.90 ns/op	      16 B/op	       1 allocs/op
 BenchmarkResolveFromLargeContainer-4        	12884692	        92.59 ns/op	      16 B/op	       1 allocs/op
 PASS
-ok  	github.com/pegasusheavy/go-dependency-injector/di	92.464s
+ok  	github.com/quinnjr/go-dependency-injector/di	92.464s
 ```
 
 </details>
